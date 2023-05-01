@@ -23,8 +23,8 @@ const createHTML = () => {
                                                             <textarea autofocus spellcheck="false" id="text" class="input-text"></textarea>
                                                             <div class="keyboard" id="keyboard"></div>
                                                         </div>
-                                                        <p class="description">Keyboard created in Win</p>
-                                                        <p class="description">Switch language: left alt + shift</p>                      
+                                                        <p class="description">Keyboard created in Windows</p>
+                                                        <p class="description">Switch language: Left Alt + Shift</p>                      
                                                     </div>`);
   const KEYBOARD = document.querySelector('#keyboard');
   for (let i = 0; i < 64; i += 1) {
